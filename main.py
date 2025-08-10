@@ -15,7 +15,7 @@ if st.button("Get Wisdom"):
         with st.spinner("Thinking deeply..."):
             try:
                 response = requests.post(
-                    "https://db5e2cb2c8c5.ngrok-free.app/ask",
+                    "https://db38261dee72.ngrok-free.app/ask",
                     json={"question": query},
                     timeout=20
                 )
